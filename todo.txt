@@ -1,10 +1,6 @@
 nvim: 
     ariel
-    oil
-    search by lsp doc symbols telescope
     vim session manager
-    lsp-config
-    lsp keybinds
     blink
     custom theme
 
