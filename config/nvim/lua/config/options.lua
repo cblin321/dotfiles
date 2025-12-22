@@ -8,6 +8,7 @@ vim.opt.smartindent = true
 vim.opt.autoindent = true
 
 vim.opt.incsearch = true
+vim.opt.hlsearch = false
 
 vim.opt.autoread = true
 vim.opt.undofile = true

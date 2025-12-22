@@ -16,6 +16,10 @@ nvim:
 	gf
 	*/#
 
+hyprland:
+    set up groups
+    set up workspaces
+
 tmux:
     steal config
 
@@ -23,6 +27,7 @@ rice:
     swaylock
     waybar
     hyprland
+    terminal (kitty?)
 
 nice to have:
     separate workspaces for each monitor

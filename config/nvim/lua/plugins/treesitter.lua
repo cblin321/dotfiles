@@ -43,6 +43,7 @@ return {
 	    "c",
 	    "make",
 	    "typescript",
+	    "go",
         }, {
           max_jobs = 8,
         })

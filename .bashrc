@@ -17,6 +17,10 @@ alias zen='/home/hi/.tarball-installations/zen'
 #alias brew='/home/linuxbrew/.linuxbrew/bin/brew'
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
+if [ -d '/home/linuxbrew/.linuxbrew/bin' ]; then
+    export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+fi
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
