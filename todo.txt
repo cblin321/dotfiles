@@ -1,0 +1,29 @@
+nvim: 
+    ariel
+    oil
+    search by lsp doc symbols telescope
+    vim session manager
+    lsp-config
+    lsp keybinds
+    blink
+    custom theme
+
+    learn:
+	marks
+	jump list
+
+    remember:
+	gf
+	*/#
+
+tmux:
+    steal config
+
+rice:
+    swaylock
+    waybar
+    hyprland
+
+nice to have:
+    separate workspaces for each monitor
+    logout
