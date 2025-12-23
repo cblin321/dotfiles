@@ -14,7 +14,13 @@ vim.keymap.set("v", ">", ">gv", { desc = "Indent right and reselect" })
 
 vim.keymap.set("n", "<leader>e", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
+-- Plugin one-liners --
+
 vim.keymap.set("n", "<leader>a", "<cmd>AerialToggle!<CR>")
+
+vim.keymap.set("n", "<leader>sl", "<cmd>:AutoSession search<CR>")
+
+-- LSP --
 
 local keymap = vim.keymap -- for conciseness
 vim.api.nvim_create_autocmd("LspAttach", {

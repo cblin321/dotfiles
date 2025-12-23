@@ -27,6 +27,11 @@ Info    : 
 --- Documentation / Hover ---
 K : Show documentation / hover info for symbol under cursor
 
+--- Session Plugin ---
+<C-s> swaps to previously opened sesh
+<C-d> deletes highlighted
+<C-y> copies highlighted
+
 ==============================
 TMUX CHEAT SHEET
 ==============================
