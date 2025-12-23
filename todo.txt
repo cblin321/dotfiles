@@ -1,6 +1,4 @@
 nvim: 
-    ariel
-    vim session manager
     blink
     custom theme
 

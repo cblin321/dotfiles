@@ -21,6 +21,10 @@ if [ -d '/home/linuxbrew/.linuxbrew/bin' ]; then
     export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 fi
 
+if [ -d '/home/hi/go/bin' ]; then
+    export PATH="/home/hi/go/bin:$PATH"
+fi
+
 # append to the history file, don't overwrite it
 shopt -s histappend
 
