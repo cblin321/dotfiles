@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action": "swaylock -eklf",
+    "action": "swaylock -ekl",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -34,11 +34,4 @@
     "text" : "Reboot",
     "keybind" : "r"
 }
-{
-    "label": "test",
-    "action": "echo 123 >> /tmp/wlogout-test.log",
-    "text": "Test",
-    "keybind": "t"
-}
-
 
