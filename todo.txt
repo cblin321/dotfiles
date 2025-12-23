@@ -13,15 +13,13 @@ hyprland:
     set up groups
     set up workspaces
 
-tmux:
-    steal config
-
 rice:
     swaylock
     waybar
     hyprland
+    swaync
+    tmux
     terminal (kitty?)
 
 nice to have:
     separate workspaces for each monitor
-    logout
