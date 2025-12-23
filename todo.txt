@@ -1,5 +1,4 @@
 nvim: 
-    blink
     custom theme
 
     learn:

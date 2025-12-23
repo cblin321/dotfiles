@@ -1,0 +1,67 @@
+==============================
+Neovim LSP Keybindings Cheat Sheet
+==============================
+(Note: These are buffer-local when an LSP is attached.)
+
+--- Code Navigation ---
+gd       : Go to definition
+gD       : Go to declaration
+gi       : Show implementations (Telescope)
+gt       : Show type definitions (Telescope)
+gR       : Show references (Telescope)
+
+--- Refactoring / Actions ---
+<leader>rn : Rename symbol under cursor
+<leader>rs : Restart LSP for buffer
+
+--- Diagnostics ---
+<leader>D : Show all diagnostics for current buffer (Telescope)
+<leader>d : Show diagnostics for current line (floating window)
+
+Diagnostic Symbols:
+Error   : 
+Warning : 
+Hint    : 󰠠
+Info    : 
+
+--- Documentation / Hover ---
+K : Show documentation / hover info for symbol under cursor
+
+==============================
+TMUX CHEAT SHEET
+==============================
+
+PREFIX
+-------
+Prefix key: Ctrl+Space
+Send prefix: Ctrl+Space
+
+PANE NAVIGATION (Vim style)
+----------------------------
+Left:    Ctrl + h     | Alt + Left
+Down:    Ctrl + j     | Alt + Down
+Up:      Ctrl + k     | Alt + Up
+Right:   Ctrl + l     | Alt + Right
+
+WINDOW NAVIGATION
+-----------------
+Next window: Shift + Right | Alt + L
+Previous window: Shift + Left | Alt + H
+
+INDEXING
+--------
+Windows start at 1: set -g base-index 1
+Panes start at 1:   set -g pane-base-index 1
+Renumber windows automatically: set-option -g renumber-windows on
+
+MOUSE
+-----
+Enable mouse support: set -g mouse on
+
+COPY MODE (Vi-style)
+--------------------
+Enter selection: v
+Rectangle selection toggle: Ctrl + v
+Copy selection and cancel: y
+Enable vi-mode in copy: set-window-option -g mode-keys vi
+

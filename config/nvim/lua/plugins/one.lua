@@ -47,6 +47,9 @@ return {
     {
 	"neovim/nvim-lspconfig",
     },
-
+    
+    {
+	"christoomey/vim-tmux-navigator",
+    }
 }
 
