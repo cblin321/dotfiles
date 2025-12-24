@@ -41,14 +41,14 @@
   },
 
   "clock": {
-    "format": "󱐿  {:%H:%M}",
+    "format": "󱐿 {:%H:%M}",
     "tooltip": false
   },
 
   "network": {
-    "format-wifi": "  {bandwidthDownBits}",
-    "format-ethernet": "  {bandwidthDownBits}",
-    "format-disconnected": "󰤮  No Network",
+    "format-wifi": " {bandwidthDownBits}",
+    "format-ethernet": " {bandwidthDownBits}",
+    "format-disconnected": "󰤮 No Network",
     "interval": 5,
     "tooltip": false
   },
@@ -56,8 +56,8 @@
   "pulseaudio": {
     "scroll-step": 5,
     "max-volume": 150,
-    "format": "{icon}  {volume}%",
-    "format-bluetooth": "{icon}  {volume}%",
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{icon} {volume}%",
     "format-icons": [
       "",
       "",
@@ -87,12 +87,12 @@
     ]
   },
   "cpu": {
-    "format": "  {usage}%",
+    "format": " {usage}%",
     "tooltip": false
   },
 
   "memory": {
-    "format": "  {}%"
+    "format": " {}%"
   },
 
   "temperature": {

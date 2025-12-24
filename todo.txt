@@ -15,9 +15,8 @@ hyprland:
 
 rice:
     swaylock
-    waybar
-    hyprland
     swaync
+    gtk
     tmux (shelved)
 
 nice to have:
