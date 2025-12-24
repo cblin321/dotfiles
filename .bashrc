@@ -14,6 +14,7 @@ HISTCONTROL=ignoreboth
 
 alias vi='nvim'
 alias zen='/home/hi/.tarball-installations/zen'
+alias themix='flatpak run com.github.themix_project.Oomox'
 #alias brew='/home/linuxbrew/.linuxbrew/bin/brew'
 export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 

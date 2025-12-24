@@ -1,0 +1,12 @@
+show-keyboard-layout
+indicator-caps-lock
+indicator-idle-visible
+
+clock
+timestr=%R
+datestr=%a, %e of %B
+
+font="BlexMono Nerd Font"
+image=~/dotfiles/wallpapers/cuter.png
+
+fade-in=.4
