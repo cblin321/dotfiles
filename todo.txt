@@ -1,5 +1,5 @@
 nvim: 
-    custom theme
+    custom theme (shelved)
 
     learn:
 	marks
@@ -18,8 +18,7 @@ rice:
     waybar
     hyprland
     swaync
-    tmux
-    terminal (kitty?)
+    tmux (shelved)
 
 nice to have:
     separate workspaces for each monitor

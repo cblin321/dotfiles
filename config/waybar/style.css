@@ -1,0 +1,54 @@
+* {
+  font-family: BlexMono Nerd Font;
+  font-size: 14px;
+  padding: 0px;
+  background: transparent;
+}
+
+window#waybar {
+    /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
+    background-image: linear-gradient(to bottom, rgba(6, 1, 5, 0.6) 100%);
+    padding: 0px;
+    border-style: none;
+    opacity: .85;
+}
+
+#battery,
+#temperature,
+#network,
+#clock,
+#custom-applauncher,
+#tray,
+#workspaces,
+#memory,
+#cpu,
+#pulseaudio {
+    background-image: linear-gradient(to bottom, #291924 100%);
+
+    margin-right: 0px;
+    padding: 4px 8px;
+    color: #fde9f7;
+
+    border-style: none;
+    transition-duration: 120ms;
+}
+
+#workspaces button {
+    color: #fde9f7;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#workspaces button.active {
+    font-weight: bold;
+    color: #d97eb1;
+}
+
+
+#workspaces button:first-child {
+    padding-left: 0;
+}
+
+#workspaces button:last-child {
+    padding-right: 0;
+}
