@@ -62,3 +62,25 @@ window#waybar {
 #workspaces button:last-child {
     padding-right: 0;
 }
+
+/* taken from diinki/diinki-retrofuture/ */
+/* TODO when more tray apps */
+#tray menu {
+    background-image: linear-gradient(to bottom, rgba(6, 1, 5, 0.6) 100%);
+    color: #fde9f7;
+    padding: 4px;
+}
+
+#tray menu menuitem {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  margin: 3px;
+  color: #d8cab8;
+  border-style: solid;
+  border-color: #27232b;
+}
+
+#tray menu menuitem:hover {
+  background-image: linear-gradient(to bottom, #27232b 100%);
+  color: #ac82e9;
+  font-weight: bold;
+}
