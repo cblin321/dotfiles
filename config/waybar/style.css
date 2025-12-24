@@ -5,6 +5,11 @@
   background: transparent;
 }
 
+#waybar {
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
 window#waybar {
     /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
     background-image: linear-gradient(to bottom, rgba(6, 1, 5, 0.6) 100%);
@@ -24,6 +29,7 @@ window#waybar {
 #cpu,
 #pulseaudio {
     background-image: linear-gradient(to bottom, #291924 100%);
+    margin: 6px;
 
     margin-right: 0px;
     padding: 4px 8px;
@@ -31,6 +37,10 @@ window#waybar {
 
     border-style: none;
     transition-duration: 120ms;
+}
+
+#clock {
+    margin-right: 6px;
 }
 
 #workspaces button {
