@@ -4,9 +4,9 @@ indicator-idle-visible
 
 clock
 timestr=%R
-datestr=%a, %e of %B
+datestr=%a, %B %e
 
-#font=BlexMono Nerd Font Mono
+font=BlexMono Nerd Font Mono
 image=~/dotfiles/wallpapers/cuter.png
 
 fade-in=.4
