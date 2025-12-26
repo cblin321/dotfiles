@@ -6,7 +6,53 @@ clock
 timestr=%R
 datestr=%a, %e of %B
 
-font="BlexMono Nerd Font"
+#font=BlexMono Nerd Font Mono
 image=~/dotfiles/wallpapers/cuter.png
 
 fade-in=.4
+
+effect-blur=20x6
+
+indicator-thickness=10
+indicator-radius=300
+
+key-hl-color=7ed9a7ff
+bs-hl-color=ec4236ff
+
+inside-caps-lock-color=00000000
+inside-clear-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+inside-color=00000033
+
+layout-border-color=00000000
+layout-bg-color=00000000
+separator-color=00000000
+line-color=00000000
+line-clear-color=00000000
+line-caps-lock-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+
+text-color=fde9f7ff
+text-clear-color=00000000
+text-caps-lock-color=fde9f7ff
+text-wrong-color=00000000
+text-ver-color=00000000
+
+#text-clear-color=00000000
+#text-caps-lock-color=00000000
+#text-wrong-color=00000000
+#text-ver-color=00000000
+
+#text-clear-color=fde9f7ff
+#text-caps-lock-color=fde9f7ff
+#text-wrong-color=fde9f7ff
+#text-ver-color=fde9f7ff
+
+ring-color=fde9f7ff
+ring-clear-color=7ed9a7ff
+ring-ver-color=32cbdaff
+ring-caps-lock-color=00000000
+ring-wrong-color=ec4236ff
+
