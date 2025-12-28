@@ -14,8 +14,9 @@ hyprland:
     set up workspaces
 
 rice:
-    swaylock
     swaync
+    wofi
+    wlogout
     gtk
     tmux (shelved)
 
