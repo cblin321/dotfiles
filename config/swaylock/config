@@ -14,7 +14,7 @@ fade-in=.4
 effect-blur=20x6
 
 indicator-thickness=10
-indicator-radius=300
+indicator-radius=200
 
 key-hl-color=7ed9a7ff
 bs-hl-color=ec4236ff
