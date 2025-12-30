@@ -14,9 +14,11 @@ cat > /usr/local/bin/suspend-hyprland.sh << 'EOF'
 case "$1" in
     suspend)
         killall -STOP Hyprland
+        killall -STOP wlsunset
         ;;
     resume)
         killall -CONT Hyprland
+        killall -CONT wlsunset
         ;;
 esac
 EOF

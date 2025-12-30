@@ -3,7 +3,7 @@ vim.opt.wrap = false
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
 
-vim.opt.shiftwidth = 2
+vim.opt.shiftwidth = 4
 vim.opt.sidescrolloff = 8
 vim.opt.smartindent = true
 vim.opt.autoindent = true
