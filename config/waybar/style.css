@@ -1,8 +1,9 @@
 * {
-  font-family: BlexMono Nerd Font Propo;
-  font-size: 14px;
-  padding: 0px;
-  background: transparent;
+    /* font-family: BlexMono Nerd Font Propo; */
+    font-family: Noto Sans UI;
+    font-size: 14px;
+    padding: 0px;
+    background: transparent;
 }
 
 #waybar {
@@ -78,15 +79,15 @@ window#waybar {
 }
 
 #tray menu menuitem {
-  background-image: linear-gradient(to bottom, #27232b 100%);
-  margin: 3px;
-  color: #d8cab8;
-  border-style: solid;
-  border-color: #27232b;
+    background-image: linear-gradient(to bottom, #27232b 100%);
+    margin: 3px;
+    color: #d8cab8;
+    border-style: solid;
+    border-color: #27232b;
 }
 
 #tray menu menuitem:hover {
-  background-image: linear-gradient(to bottom, #27232b 100%);
-  color: #ac82e9;
-  font-weight: bold;
+    background-image: linear-gradient(to bottom, #27232b 100%);
+    color: #ac82e9;
+    font-weight: bold;
 }
