@@ -14,6 +14,7 @@ return
             -- You can customize some of the format options for the filetype (:help conform.format)
             rust = { "rustfmt", lsp_format = "fallback" },
             html = { "html_beautify" },
+            css = { "css_beautify" },
             -- Conform will run the first available formatter
             javascript = { "prettierd", "prettier", stop_after_first = true },
         },
